@@ -1,0 +1,16 @@
+.elementEditor{
+    width: 300px;
+    /* display: flex; */
+    border: 1px solid;
+    min-height: 900px;
+    display: inline-block;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 30px;
+
+}
+.textureClasses{
+    display: inline-block;
+}

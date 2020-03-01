@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500px" height="500px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 500 500"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="hwad">
+   <ellipse fill="#D4A575" cx="183" cy="124" rx="14" ry="19"/>
+   <ellipse fill="#D4A575" cx="317" cy="123" rx="14" ry="19"/>
+   <circle id="headshape" fill="#EAB686" cx="250" cy="97" r="72"/>
+   <ellipse fill="black" cx="280" cy="109" rx="6" ry="10"/>
+   <ellipse fill="black" cx="222" cy="109" rx="6" ry="10"/>
+   <ellipse fill="white" cx="280" cy="105" rx="2" ry="3"/>
+   <ellipse fill="white" cx="222" cy="105" rx="2" ry="3"/>
+  </g>
+  <path id="Leyebrows" fill="#CCCCCC" d="M212 95c1,1 4,0 5,0 8,0 16,0 24,0 0,0 0,-1 0,-1 0,-1 -1,-1 -1,-2 0,0 0,0 0,0 0,0 0,0 0,-1 -1,0 0,-1 -1,-1l0 0c0,0 -1,-1 -1,-1 0,0 -1,0 -1,0 -1,0 -1,-1 -2,-1 0,0 -1,0 -1,0 0,0 0,0 -1,0 0,1 0,0 0,1 0,0 -1,0 -1,0 -2,0 -1,0 -2,-1 0,0 -1,-1 -1,-1 0,-1 -1,-1 -2,-1 -1,0 -1,0 -2,0 -1,0 -2,0 -3,0 0,0 0,0 0,1 -1,0 -1,1 -1,1 -1,0 0,0 -1,0 -3,0 -1,0 -3,-1 -1,0 -1,0 -2,0 -1,0 -1,0 -2,0 0,0 0,0 0,1 -1,0 0,0 0,1 -1,0 -1,1 -1,2 0,1 0,2 0,3 0,1 -1,1 0,1z"/>
+  <path id="Rewebrows" fill="#CCCCCC" d="M292 95c-1,1 -4,0 -5,0 -8,0 -16,0 -24,0 0,0 0,-1 0,-1 0,-1 0,-1 0,-2 0,0 0,0 0,0 1,0 0,0 1,-1 0,0 0,-1 1,-1l0 0c0,0 1,-1 1,-1 0,0 1,0 1,0 1,0 1,-1 2,-1 0,0 0,0 1,0 0,0 0,0 0,0 1,1 0,0 1,1 0,0 1,0 1,0 2,0 0,0 2,-1 0,0 0,-1 1,-1 0,-1 1,-1 2,-1 1,0 1,0 2,0 1,0 2,0 3,0 0,0 0,0 0,1 0,0 1,1 1,1 1,0 -1,0 1,0 3,0 1,0 3,-1 1,0 1,0 2,0 0,0 1,0 2,0 0,0 0,0 0,1 0,0 0,0 0,1 1,0 1,1 1,2 0,1 0,2 0,3 0,1 0,1 0,1z"/>
+ </g>
+</svg>

@@ -1,0 +1,170 @@
+<div class="grid">
+
+    <div class="menu">
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="570px" height="130px" version="1.1"
+            shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality"
+            fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 570 110" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Layer_1">
+                <metadata id="CorelCorpID_0Corel-Layer" />
+                <g id="_2208123159664">
+                    <g id="Open_World" for="OpenWorld">
+                        <rect fill="none" stroke="black" stroke-width="2.36221" x="6" y="2" width="175.269" height="52.1022" />
+                        <text x="21" y="38" fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Open
+                            World</text>
+                    </g>
+                    <g id="save_world" (click)="doSomething('save')">
+                        <rect fill="none" stroke="black" stroke-width="2.36221" x="196" y="2" width="175.269" height="52.1022" />
+                        <text x="213" y="38" fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Save
+                            World</text>
+                    </g>
+
+                    <a id="download" [attr.href]="downloadHref" (click)="doSomething('download')" download="world.json">
+                        <rect fill="none" stroke="black" stroke-width="2.36221" x="386" y="2" width="175.269" height="52.1022" />
+                        <text x="414" y="38" fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Download
+                        </text>
+                    </a>
+                    <g>
+                            <text x="245" y="102" fill="black" font-weight="normal" font-size="35" font-family="Arial">{{selectedSector}}</text>
+                        </g>
+                    
+
+                    <g>
+                        <rect fill="none" stroke="black" stroke-width="2.36221" x="6" y="66" width="175.269" height="52.1022" />
+                        <text x="57" y="102" fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Other</text>
+                    </g>
+                    <g id="Tooglke" (click)="doSomething('toggle')">
+                        <rect fill="none" stroke="black" stroke-width="2.36221" x="386" y="66" width="175.269" height="52.1022" />
+                        <text x="398" y="103" fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Toggle/Layer</text>
+                    </g>
+                </g>
+            </g>
+        </svg>
+
+        <div class="sectorinfo">
+                
+
+            <div *ngFor="let sector of world" >
+
+                <ng-container *ngIf="sector.number == selectedSector">
+                        Name: <input class="info" type="text" [(ngModel)]="sector.name"><br>
+                        ID: <input class="info" type="text" [(ngModel)]="sector.id"><br>
+                        Fill: <input class="info" type="text" [(ngModel)]="sector.fill"><br>
+                        Layer: <input class="info" type="text" [(ngModel)]="sector.layer"><br>
+                </ng-container>
+                
+            </div>
+               
+
+
+                
+                    
+         </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="566" height="566" version="1.1" 
+        [attr.viewBox]="((mapSettings.worldPrewSett.width/2) *-1)+' '+((mapSettings.worldPrewSett.width/2) *-1)+' '+mapSettings.worldPrewSett.width+' '+mapSettings.worldPrewSett.width"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="sectorview">
+                <rect fill="none" stroke="black" stroke-width="236.221" [attr.x]="((mapSettings.worldPrewSett.width/2) *-1)" [attr.y]="((mapSettings.worldPrewSett.width/2) *-1)" [attr.width]="mapSettings.worldPrewSett.width" [attr.height]="mapSettings.worldPrewSett.width" />
+
+            </g>
+            <g *ngFor="let sector of mapSettings.worldPrewSett.draw; let i = index"  >
+                    <g *ngFor="let block of sector; let i2 = index">
+                <rect fill="white" stroke="black" stroke-width="50" [attr.width]="mapSettings.worldPrewSett.gridSize" [attr.height]="mapSettings.worldPrewSett.gridSize" [attr.x]="block.x" [attr.y]="block.y" (click)="doSomething('selectSector','',block, i, i2)" />
+            </g>
+            
+            </g>
+           <g  >
+                <g *ngFor="let sector of world; let i = index"  >
+                        
+                    <rect [attr.fill]="sector.fill" stroke="black" stroke-width="50" [attr.width]="mapSettings.worldPrewSett.gridSize" [attr.height]="mapSettings.worldPrewSett.gridSize" [attr.x]="sector.x" [attr.y]="sector.y" (click)="doSomething('selectSector','',sector)" />
+                    <text [attr.x]="sector.x + 50" [attr.y]="sector.y + 750" fill="black" font-weight="normal" font-size="460px" font-family="Arial">{{sector.id}}</text>
+                
+                
+                </g>
+           </g>
+   
+
+
+        </svg>
+    </div>
+  
+
+    <div class="blocks" *ngIf="selectedSector!='' ">
+        <svg #map xmlns="http://www.w3.org/2000/svg" xml:space="preserve" [attr.width]="this.mapSettings.width"
+            [attr.height]="this.mapSettings.height" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+            image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" [attr.viewBox]="'0 0 '+this.mapSettings.width+' '+this.mapSettings.height"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+
+            <g *ngFor="let collon of mapSettings.toDraw; let i = index">
+                    <g *ngFor="let block of collon; let i2 = index">
+                        
+                            
+    
+    
+                            <g *ngIf="block.active && block.value">
+                                    <image *ngIf="block.value.fyleType"  [attr.x]="block.x-(block.value.width/2)" [attr.y]="block.y-(block.value.heigth/2)" stroke="none" 
+                                    [attr.width]="320" [attr.height]="320" stroke-width="1"  [attr.href]="'assets/svg/levels/elements/'+block.value.group+'/'+block.value.path+'/'+block.value.id+'.'+block.value.fyleType" />
+                                    <rect *ngIf="block.value.hitbox"  [attr.height]="block.value.hitbox.height" [attr.width]="block.value.hitbox.width" fill="green" stroke="#33CC33" stroke-width="2.36222" [attr.x]="block.value.hitbox.x"[attr.y]="block.value.hitbox.y" width="26.0092" height="24.9993"/>
+            
+                            </g>
+                    </g>
+                    </g>
+
+            <g *ngFor="let collon of mapSettings.toDraw; let i = index">
+                <g *ngFor="let block of collon; let i2 = index">
+                    
+                        <rect    (mousedown)="doSomething('click',$event,block)" (mouseenter)="doSomething('mouseOver',$event, block)"
+                        [attr.x]="block.x" [attr.y]="block.y" stroke="black" [attr.fill]="block.fill ? block.fill : 'white'"
+                        [attr.width]="mapSettings.gridSize" [attr.height]="mapSettings.gridSize" stroke-width="1" fill-opacity="0.5" />
+
+           
+                    </g>
+            </g>
+
+            <ng-container >
+                <g *ngFor="let collon2 of mapSettings.toDraw2; let i = index" [style.display]="mapSettings.toggle % 2 === 0 ? 'initial' : 'none' ">
+                    <g *ngFor="let block2 of collon2; let i2 = index">
+                        <rect (mousedown)="doSomething('click2',$event,block2, collon2)" fill-opacity="0.4" (mouseenter)="doSomething('mouseOver2',$event, block2)"
+                            [attr.x]="(block2.x)" [attr.y]="(block2.y)" stroke="black" [attr.fill]="block2.fill ? block2.fill : 'white'"
+                            [attr.width]="mapSettings.gridSize" [attr.height]="mapSettings.gridSize" stroke-width="1" />
+                    </g>
+                </g>
+            </ng-container>
+
+            <filter id="grayscale">
+                <feColorMatrix type="matrix" values="0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0" />
+            </filter>
+        </svg>
+    </div>
+<div class="textureClasses" >
+    
+    <ng-container *ngFor="let texture of Object.keys(textures[textures.selectedLayer])" >
+        <button (click)="textures.selected=texture">{{texture}}</button>
+        
+    </ng-container>
+</div>
+
+        <div class="textures">
+
+            <ng-container *ngFor="let texture of textures[textures.selectedLayer][textures.selected]" >
+                <img [style.border]="textures.selectedToApply['name']==texture['name'] ? '1px solid grey' : '' " (click)="doSomething('selectTexture',$event, texture)"  width="100px" height="100px" [src]="'assets/svg/levels/elements/'+textures.selected+'/'+texture['path']+'/'+texture['id']+'.'+texture['fyleType']" alt="">
+            </ng-container>
+
+    
+            </div>
+
+</div>
+
+
+
+
+
+<input id="OpenWorld" type="file" uploader="uploader" (change)="onFileChange($event)" #fileInput />
+
+
+
+
+

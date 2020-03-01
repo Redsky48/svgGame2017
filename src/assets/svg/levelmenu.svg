@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="560px" height="120px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 560 120"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2208116750880">
+   <g id="Open_x0020_World">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="3" y="2" width="175.269" height="52.1021"/>
+    <text x="18" y="37"  fill="black" font-weight="normal" font-size="26.4721px" font-family="Arial">Open World</text>
+   </g>
+   <g id="save_x0020_world">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="192" y="2" width="175.269" height="52.1021"/>
+    <text x="210" y="37"  fill="black" font-weight="normal" font-size="26.4721px" font-family="Arial">Save World</text>
+   </g>
+   <g id="download">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="382" y="2" width="175.269" height="52.1021"/>
+    <text x="411" y="37"  fill="black" font-weight="normal" font-size="26.4721px" font-family="Arial">Download</text>
+   </g>
+   <g>
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="3" y="66" width="175.269" height="52.1021"/>
+    <text x="54" y="102"  fill="black" font-weight="normal" font-size="26.4721px" font-family="Arial">Other</text>
+   </g>
+   <g id="Tooglke">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="382" y="65" width="175.269" height="52.1021"/>
+    <text x="394" y="103"  fill="black" font-weight="normal" font-size="26.4721px" font-family="Arial">Toggle/Layer</text>
+   </g>
+  </g>
+ </g>
+</svg>

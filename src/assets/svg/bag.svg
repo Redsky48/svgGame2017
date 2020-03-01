@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="67.7332mm" height="33.8666mm" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 6773 3387"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2756984216496">
+   <rect fill="black" stroke="black" stroke-width="20" x="1207" y="958" width="958" height="1221"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="1480" y="790" width="423" height="117"/>
+   <rect fill="black" stroke="black" stroke-width="20" x="197" y="997" width="863" height="233"/>
+   <rect fill="black" stroke="black" stroke-width="20" x="2302" y="997" width="863" height="233"/>
+   <rect fill="black" stroke="black" stroke-width="20" transform="matrix(1.3498E-14 -0.509656 0.509656 1.3498E-14 1247.78 3211.15)" width="1693" height="457"/>
+   <rect fill="black" stroke="black" stroke-width="20" transform="matrix(1.3498E-14 -0.509656 0.509656 1.3498E-14 1847.56 3214.2)" width="1693" height="457"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="197" y="997" width="224" height="233"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="2970" y="997" width="195" height="233"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="1248" y="2979" width="233" height="232"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="1207" y="2021" width="958" height="158"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="1848" y="2979" width="233" height="232"/>
+   <rect fill="black" stroke="black" stroke-width="20" x="1400" y="110" width="588" height="588"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="1568" y="1105" width="233" height="232"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="201" y="642" width="233" height="232"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="2958" y="642" width="233" height="232"/>
+   <rect fill="white" stroke="black" stroke-width="20" x="1574" y="261" width="233" height="232"/>
+  </g>
+  <rect fill="none" stroke="black" stroke-width="20" x="85" y="1566" width="1008" height="1727"/>
+  <text x="133" y="1771"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">Player 1</text>
+  <text x="133" y="1925"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">Class:</text>
+  <text x="133" y="2081"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">ATK:</text>
+  <text x="133" y="2235"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">DEF:</text>
+  <text x="133" y="2375"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">HP:</text>
+  <text x="133" y="2529"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">MP:</text>
+  <text x="133" y="2685"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">CRIT:</text>
+  <text x="133" y="3237"  fill="black" font-weight="normal" font-size="120.59px" font-family="Arial">BOOST:</text>
+  <rect fill="none" stroke="black" stroke-width="20" x="3370" y="110" width="3251" height="3150"/>
+ </g>
+</svg>

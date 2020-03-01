@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="570px" height="1210px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 570 1210"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2208123159664">
+   <g id="Open_x0020_World">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="6" y="2" width="175.269" height="52.1022"/>
+    <text x="21" y="38"  fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Open World</text>
+   </g>
+   <g id="save_x0020_world">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="196" y="2" width="175.269" height="52.1022"/>
+    <text x="213" y="38"  fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Save World</text>
+   </g>
+   <g id="download">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="386" y="2" width="175.269" height="52.1022"/>
+    <text x="414" y="38"  fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Download</text>
+   </g>
+   <g id="sectorview">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="10" y="140" width="554" height="526"/>
+    <text x="191" y="132"  fill="black" font-weight="normal" font-size="36.7572px" font-family="Arial">SectorView</text>
+   </g>
+   <g id="sectorData">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="10" y="682" width="554" height="526"/>
+    <text x="172" y="741"  fill="black" font-weight="normal" font-size="44.0199px" font-family="Arial">Sector Data</text>
+    <text x="48" y="810"  fill="black" font-weight="normal" font-size="31.0678px" font-family="Arial">Name:Home</text>
+    <text x="48" y="860"  fill="black" font-weight="normal" font-size="31.0678px" font-family="Arial">Position-x: 0 </text>
+    <text x="48" y="900"  fill="black" font-weight="normal" font-size="31.0678px" font-family="Arial">Position-y: 0 </text>
+   </g>
+   <g>
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="6" y="66" width="175.269" height="52.1022"/>
+    <text x="57" y="102"  fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Other</text>
+   </g>
+   <g id="Tooglke">
+    <rect fill="none" stroke="black" stroke-width="2.36221" x="386" y="66" width="175.269" height="52.1022"/>
+    <text x="398" y="103"  fill="black" font-weight="normal" font-size="26.4722px" font-family="Arial">Toggle/Layer</text>
+   </g>
+  </g>
+ </g>
+</svg>

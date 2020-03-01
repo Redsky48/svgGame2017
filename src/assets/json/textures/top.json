@@ -1,0 +1,165 @@
+{
+    "plants": [
+        {
+            "name": "Japan Pink Tree",
+            "width": 300,
+            "heigth": 300,
+			"path":"tree",
+			"id":0,
+			"group":"plants",
+			"fyleType":"png",
+			"hitbox":{
+				"walkThro":false,
+				"x":130,
+				"y":130,
+				"width":40,
+				"height":40,
+				"type":false
+				}
+        },
+		
+		{
+            "name": "Palm Tree",
+            "width": 300,
+            "heigth": 300,
+			"path":"tree",
+			"id":1,
+			"group":"plants",
+			"fyleType":"png",
+			"hitbox":{
+				"walkThro":false,
+				"x":130,
+				"y":130,
+				"width":40,
+				"height":40,
+				"type":false
+				}
+        },
+				{
+            "name": "Duno Tree",
+            "width": 300,
+            "heigth": 300,
+			"path":"tree",
+			"id":2,
+			"group":"plants",
+			"fyleType":"png",
+			"hitbox":{
+				"walkThro":false,
+				"x":130,
+				"y":130,
+				"width":40,
+				"height":40,
+				"type":false
+				}
+        }
+    ],
+	"enemies": [
+        {
+            "name": "Mage",
+            "width": 300,
+            "heigth": 300,
+			"path":"mage",
+			"id":0,
+			"group":"enemies",
+			"fyleType":"svg",
+			"hitbox":{
+				"walkThro":true,
+				"x":0,
+				"y":0,
+				"width":0,
+				"height":0,
+				"type":{
+					}
+				}
+        },
+		{
+            "name": "Spider x 3",
+            "width": 300,
+            "heigth": 300,
+			"path":"spider",
+			"id":0,
+			"group":"enemies",
+			"fyleType":"svg",
+			"hitbox":{
+				"walkThro":true,
+				"x":50,
+				"y":50,
+				"width":100,
+				"height":100,
+				"type":{
+					"value":"Fight",
+					"Probability":20,
+					"EnemyID":[
+					
+						{
+						"ID":"forest"
+						}
+					],
+					"Clases":[
+						
+						{
+						"ID":"spider"
+						},
+						{
+						"ID":"spider"
+						},
+						{
+						"ID":"spider"
+						}
+					]
+					}
+				}
+        },
+		{
+            "name": "Spider x 1",
+            "width": 300,
+            "heigth": 300,
+			"path":"spider",
+			"id":0,
+			"group":"enemies",
+			"fyleType":"svg",
+			"hitbox":{
+				"walkThro":true,
+				"x":50,
+				"y":50,
+				"width":100,
+				"height":100,
+				"type":{
+					"value":"Fight",
+					"Probability":20,
+					"EnemyID":[
+					
+						{
+						"ID":"forest"
+						}
+					],
+					"Clases":[
+						
+						{
+						"ID":"spider"
+						}
+					]
+					}
+				}
+        }
+    ],
+	 "other": [
+        {
+            "name": "Village Hause",
+            "width": 200,
+            "heigth": 120,
+			"path":"hauses",
+			"id":0,
+			"group":"other",
+			"fyleType":"png",
+			"hitbox":{
+				"walkThro":false,
+				"x":0,
+				"y":0,
+				"width":200,
+				"height":120,
+				"type":false
+				}
+        }
+		]
+}

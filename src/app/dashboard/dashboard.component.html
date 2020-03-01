@@ -1,0 +1,9 @@
+<div class="game" *ngIf='characterSelected' >
+ 
+  <app-map-game *ngIf="!battle"></app-map-game>
+  <app-game *ngIf="battle" [battle]="battle"  class="battle"></app-game>
+</div>
+
+<div class="charCreation" *ngIf='!characterSelected'>
+  <app-character-creator></app-character-creator>
+</div>

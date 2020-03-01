@@ -1,0 +1,4 @@
+<button (click)="doSomething('mode')"> Mode </button>
+
+<app-dashboard *ngIf="!editor"></app-dashboard>
+<app-map-builder *ngIf="editor"></app-map-builder>

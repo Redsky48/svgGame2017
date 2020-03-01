@@ -1,0 +1,48 @@
+<div class="elementEditor">
+  
+ <div class="tittle">
+    ELEMENT EDITOR
+ </div> 
+  <div class="selectFile">
+
+  </div>
+  <div class="ElementPicture">
+
+  </div>
+  <div class="elementInfo">
+    <input type="text" class="name" [(ngModel)]="elementList.selectedToApply['name']" placeholder="name"> <br>
+    <input type="text" class="name" [(ngModel)]="elementList.selectedToApply['group']" placeholder="group"><br>
+    <input type="text" class="name" [(ngModel)]="elementList.selectedToApply['path']" placeholder="path"><br>
+    <input type="text" class="name" [(ngModel)]="elementList.selectedToApply['id']" placeholder="id"><br>
+    <input type="text" class="name" [(ngModel)]="elementList.selectedToApply['fyleType']" placeholder="fyleType"><br>
+    Enable Hitbox :<input type="checkbox" class="name"  [(ngModel)]="elementList.selectedToApply['hitoboxEnable']"><br>
+    
+    <div class="hitboxInfo" *ngIf="elementList.selectedToApply['hitoboxEnable']">
+{{elementList.selectedToApply['hitbox'].walkThro}}
+    </div>
+
+
+    
+  </div>
+</div>
+
+
+<div class="textureClasses" >
+    
+  <ng-container *ngFor="let textureNames of Object.keys(elementList['top'])" >
+      <button (click)="elementList.selected=textureNames">{{textureNames}}</button>
+      
+  </ng-container>
+
+  <div class="textures">
+
+      <ng-container *ngFor="let texture of elementList.top[elementList.selected]" >
+          <img [style.border]="elementList.selectedToApply['name']==texture['name'] ? '1px solid grey' : '' " (click)="doSomething('selectTexture',$event, texture)"  width="100px" height="100px" [src]="'assets/svg/levels/elements/'+elementList['selected']+'/'+texture['path']+'/'+texture['id']+'.'+texture['fyleType']" alt="">
+      </ng-container>
+
+
+      </div>
+
+</div>
+
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="67.7332mm" height="67.7332mm" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 6773 6773"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="enemy">
+   <ellipse fill="none" stroke="black" stroke-width="20" cx="5681" cy="3519" rx="456" ry="100"/>
+   <polygon fill="none" stroke="black" stroke-width="20" points="5679,2487 5774,2783 6085,2782 5833,2964 5930,3260 5679,3077 5427,3260 5524,2964 5272,2782 5583,2783 "/>
+   <rect fill="none" stroke="black" stroke-width="20" x="5148" y="1888" width="1050" height="119"/>
+   <rect fill="lime" stroke="black" stroke-width="20" x="5148" y="1888" width="711" height="119"/>
+  </g>
+  <g id="Player">
+   <ellipse fill="none" stroke="black" stroke-width="20" cx="1264" cy="3519" rx="456" ry="100"/>
+   <rect fill="none" stroke="black" stroke-width="20" x="844" y="2506" width="830" height="737"/>
+   <g id="healthBar">
+    <rect fill="none" stroke="black" stroke-width="20" x="754" y="1888" width="1050" height="119"/>
+    <rect fill="lime" stroke="black" stroke-width="20" x="754" y="1888" width="881" height="119"/>
+   </g>
+  </g>
+  <g id="menu">
+   <g id="Other">
+    <rect fill="none" stroke="black" stroke-width="20" x="119" y="6295" width="1864" height="357"/>
+    <text x="463" y="6587"  fill="black" font-weight="normal" font-size="302.02px" font-family="Arial">OTHER</text>
+   </g>
+   <g id="Attack">
+    <rect fill="none" stroke="black" stroke-width="20" x="119" y="5512" width="1864" height="357"/>
+    <text x="463" y="5819"  fill="black" font-weight="normal" font-size="302.02px" font-family="Arial">ATTACK</text>
+    <g id="Atacks">
+     <g id="Type">
+      <text x="5554" y="5733"  fill="black" font-weight="normal" font-size="131.45px" font-family="Arial">TYPE</text>
+      <rect fill="none" stroke="black" stroke-width="20" x="5080" y="5571" width="1338" height="1063"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5141" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5451" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5757" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="6063" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5141" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5451" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5757" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="6063" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5141" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5451" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="5757" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="6063" y="6341" width="246" height="246"/>
+     </g>
+     <g id="Magic">
+      <text x="4051" y="5733"  fill="black" font-weight="normal" font-size="131.45px" font-family="Arial">MAGIC</text>
+      <rect fill="none" stroke="black" stroke-width="20" x="3620" y="5571" width="1338" height="1063"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3680" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3990" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="4296" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="4602" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3680" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3990" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="4296" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="4602" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3680" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3990" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="4296" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="4602" y="6341" width="246" height="246"/>
+     </g>
+     <g id="Melle">
+      <rect fill="none" stroke="black" stroke-width="20" x="2142" y="5571" width="1338" height="1063"/>
+      <text x="2579" y="5733"  fill="black" font-weight="normal" font-size="131.45px" font-family="Arial">MEELE</text>
+      <rect fill="none" stroke="black" stroke-width="20" x="2203" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2513" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2819" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3125" y="5770" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2203" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2513" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2819" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3125" y="6058" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2203" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2513" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="2819" y="6341" width="246" height="246"/>
+      <rect fill="none" stroke="black" stroke-width="20" x="3125" y="6341" width="246" height="246"/>
+     </g>
+    </g>
+   </g>
+   <g id="Bag">
+    <rect fill="none" stroke="black" stroke-width="20" x="122" y="5904" width="1864" height="357"/>
+    <text x="711" y="6212"  fill="black" font-weight="normal" font-size="302.02px" font-family="Arial">BAG</text>
+   </g>
+   <rect fill="none" stroke="black" stroke-width="33.86" x="119" y="5512" width="6418" height="1168"/>
+  </g>
+  <rect fill="none" stroke="black" stroke-width="20" x="1380" y="85" width="4191" height="339"/>
+  <text x="2557" y="371" id="Tittle" fill="black" font-weight="normal" font-size="327.75px" font-family="Arial">Some Forrest</text>
+ </g>
+</svg>

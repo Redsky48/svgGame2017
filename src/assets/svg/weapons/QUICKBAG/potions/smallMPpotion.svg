@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100px" height="100px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 100 100"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+   <clipPath id="id0">
+    <path d="M51 30l1 0c1,0 2,1 2,2l0 52c0,2 -1,2 -2,2l-1 0c-1,0 -2,0 -2,-2l0 -52c0,-1 1,-2 2,-2z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M52 34l1 0c0,0 1,0 1,0l0 6c0,0 -1,1 -1,1l-1 0c0,0 0,-1 0,-1l0 -6c0,0 0,0 0,0z"/>
+   </clipPath>
+   <clipPath id="id2">
+    <path d="M52 34l1 0c0,0 1,0 1,0l0 6c0,0 -1,1 -1,1l-1 0c0,0 0,-1 0,-1l0 -6c0,0 0,0 0,0z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path fill="#5E5EFF" stroke="black" stroke-width="2.36222" d="M59 24l0 66c-7,11 -15,9 -22,0l0 -66 22 0z"/>
+  <path fill="none" stroke="black" stroke-width="2.36222" d="M37 10l22 0 0 80c-7,11 -15,9 -22,0l0 -80z"/>
+  <rect fill="none" stroke="black" stroke-width="2.36222" x="34" y="3" width="28.6791" height="7.68993" rx="2" ry="2"/>
+  <g clip-path="url(#id0)">
+   <polygon fill="#FEFEFE" points="-251,-270 354,-270 354,386 -251,386 "/>
+   <g id="Layer_x0020_1_0">
+    <metadata id="CorelCorpID_1Corel-Layer"/>
+    <path id="1" fill="#8686FF" stroke="#404040" stroke-width="2.36222" d="M59 24l0 66c-7,11 -15,9 -22,0l0 -66 22 0z"/>
+    <path fill="none" stroke="#404040" stroke-width="2.36222" d="M37 10l22 0 0 80c-7,11 -15,9 -22,0l0 -80z"/>
+    <path fill="none" stroke="#404040" stroke-width="2.36222" d="M36 11l24 0c1,0 2,-1 2,-2l0 -4c0,-1 -1,-2 -2,-2l-24 0c-1,0 -2,1 -2,2l0 4c0,1 1,2 2,2z"/>
+   </g>
+  </g>
+  <path fill="none" d="M51 30l1 0c1,0 2,1 2,2l0 52c0,2 -1,2 -2,2l-1 0c-1,0 -2,0 -2,-2l0 -52c0,-1 1,-2 2,-2z"/>
+  <g clip-path="url(#id1)">
+   <polygon fill="#FEFEFE" points="-248,-266 354,-266 354,341 -248,341 "/>
+   <g id="Layer_x0020_1_1">
+    <metadata id="CorelCorpID_2Corel-Layer"/>
+    <path id="1" fill="#8686FF" stroke="#404040" stroke-width="2.36222" d="M59 24l0 66c-7,11 -15,9 -22,0l0 -66 22 0z"/>
+    <path fill="none" stroke="#404040" stroke-width="2.36222" d="M37 10l22 0 0 80c-7,11 -15,9 -22,0l0 -80z"/>
+    <path fill="none" stroke="#404040" stroke-width="2.36222" d="M36 11l24 0c1,0 2,-1 2,-2l0 -4c0,-1 -1,-2 -2,-2l-24 0c-1,0 -2,1 -2,2l0 4c0,1 1,2 2,2z"/>
+    <path fill="none" d="M51 30l1 0c1,0 2,1 2,2l0 52c0,2 -1,2 -2,2l-1 0c-1,0 -2,0 -2,-2l0 -52c0,-1 1,-2 2,-2z"/>
+   </g>
+  </g>
+  <path fill="none" d="M52 34l1 0c0,0 1,0 1,0l0 6c0,0 -1,1 -1,1l-1 0c0,0 0,-1 0,-1l0 -6c0,0 0,0 0,0z"/>
+  <g clip-path="url(#id2)">
+   <polygon id="1" fill="#FEFEFE" points="-248,-266 354,-266 354,341 -248,341 "/>
+   <g id="Layer_x0020_1_2">
+    <metadata id="CorelCorpID_3Corel-Layer"/>
+    <path id="2" fill="#A4A4FF" stroke="#707070" stroke-width="2.36222" d="M59 24l0 66c-7,11 -15,9 -22,0l0 -66 22 0z"/>
+    <path fill="none" stroke="#707070" stroke-width="2.36222" d="M37 10l22 0 0 80c-7,11 -15,9 -22,0l0 -80z"/>
+    <path fill="none" stroke="#707070" stroke-width="2.36222" d="M36 11l24 0c1,0 2,-1 2,-2l0 -4c0,-1 -1,-2 -2,-2l-24 0c-1,0 -2,1 -2,2l0 4c0,1 1,2 2,2z"/>
+    <path fill="none" d="M51 30l1 0c1,0 2,1 2,2l0 52c0,2 -1,2 -2,2l-1 0c-1,0 -2,0 -2,-2l0 -52c0,-1 1,-2 2,-2z"/>
+   </g>
+  </g>
+  <path fill="none" d="M52 34l1 0c0,0 1,0 1,0l0 6c0,0 -1,1 -1,1l-1 0c0,0 0,-1 0,-1l0 -6c0,0 0,0 0,0z"/>
+ </g>
+</svg>

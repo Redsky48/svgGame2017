@@ -1,0 +1,283 @@
+    public Attacks = {
+        MELEE: [
+            {
+                NAME: 'Bite',
+                DMG: 6,
+                MP: 0,
+                DEF: 0,
+                HP: 0,
+                ID: 'bite',
+                DUR: 1,
+                type: 'normal'
+            },
+            {
+                NAME: 'Single Wood Sword',
+                DMG: 10,
+                MP: 0,
+                DEF: 0,
+                HP: 0,
+                ID: 'woodenSword',
+                DUR: 1,
+                type: 'wood'
+            },
+            {
+                NAME: 'Single Iron Sword',
+                DMG: 20,
+                MP: 0,
+                DEF: 0,
+                HP: 0,
+                ID: 'ironSword',
+                DUR: 1,
+                type: 'iron'
+            },
+
+
+
+        ],
+        QUICKBAG: [
+            {
+                NAME: 'Small Health Potion',
+                DMG: 0,
+                MP: 0,
+                DEF: 0,
+                HP: 20,
+                ID: 'smallHPpotion',
+                type:'potions'
+            },
+            {
+                NAME: 'Medium Health Potion',
+                DMG: 0,
+                MP: 0,
+                DEF: 0,
+                HP: 40,
+                ID: 'mediumHPpotion',
+                type:'potions'
+            },
+            {
+                NAME: 'Large Health Potion',
+                DMG: 0,
+                MP: 0,
+                DEF: 0,
+                HP: 90,
+                ID: 'largeHPpotion',
+                type:'potions'
+            },
+            {
+                NAME: 'Small Manna Potion',
+                DMG: 0,
+                MP: 30,
+                DEF: 0,
+                HP: 0,
+                ID: 'smallMPpotion',
+                type:'potions'
+            },
+            {
+                NAME: 'Medium Manna Potion',
+                DMG: 0,
+                MP: 40,
+                DEF: 0,
+                HP: 0,
+                ID: 'mediumMPpotion',
+                type:'potions'
+            },
+            {
+                NAME: 'Large Manna Potion',
+                DMG: 0,
+                MP: 90,
+                DEF: 0,
+                HP: 0,
+                ID: 'largeMPpotion',
+                type:'potions'
+            }
+        ],
+        MAGIC: [
+            {
+                NAME: 'FireBall',
+                DMG: 50,
+                MP: 20,
+                DEF: 0,
+                ID: 'fireball',
+                HP: 0,
+                DUR: 1,
+                type: 'fire'
+            },
+            {
+                NAME: 'Acid Rain',
+                DMG: 10,
+                MP: 30,
+                DEF: 0,
+                ID: 'acidrain',
+                HP: 0,
+                DUR: 6,
+                type: 'water'
+
+            },
+            {
+                NAME: 'Fire Tornado',
+                DMG: 50,
+                MP: 90,
+                DEF: 0,
+                ID: 'firetornado',
+                HP: 0,
+                DUR: 3,
+                type: 'fire'
+            },
+            {
+                NAME: 'Ice Spike',
+                DMG: 30,
+                MP: 15,
+                DEF: 0,
+                ID: 'icespike',
+                HP: 0,
+                DUR: 1,
+                type: 'ice'
+            },
+            {
+                NAME: 'Thunder',
+                DMG: 20,
+                MP: 30,
+                DEF: 0,
+                ID: 'thunder',
+                HP: 0,
+                DUR: 3,
+                type: 'electricity'
+            }
+        ]
+    }		
+
+
+
+
+
+
+
+
+
+ public enemyList = {
+        spider: [
+            {
+            ID: 'forest',
+            NAME: 'Forest Spider',
+            CLASS: 'spider',
+            HP: 100,
+            MP: 30,
+            LVL: 1,
+            MAXHP: 100,
+            MAXMP: 30,
+            XPGAIN: 10,
+            ATK: 1,
+            DEF: 1,
+
+            TAKINGDAMAGE: '',
+
+            ATTACKS: [],
+            ATTACKLIST: [
+                { ID: "bite", TYPE: "MELEE" },
+                { ID: 'smallHPpotion', TYPE: "QUICKBAG" },
+
+            ],
+        },{
+            ID: 'forest',
+            NAME: 'Forest Spider',
+            CLASS: 'spider',
+            HP: 100,
+            MP: 30,
+            LVL: 1,
+            MAXHP: 100,
+            MAXMP: 30,
+            XPGAIN: 10,
+            ATK: 1,
+            DEF: 1,
+
+            TAKINGDAMAGE: '',
+
+            ATTACKS: [],
+            ATTACKLIST: [
+                { ID: "bite", TYPE: "MELEE" },
+                { ID: 'smallHPpotion', TYPE: "QUICKBAG" },
+
+            ],
+        }
+    
+    ],
+        mage: [{
+
+            ID: 'forest',
+            NAME: 'Forest Mage',
+            CLASS: 'mage',
+            LVL: 2,
+            HP: 200,
+            MP: 100,
+            XPGAIN: 30,
+            MAXHP: 200,
+            MAXMP: 100,
+
+            ATK: 2,
+            DEF: 2,
+
+            TAKINGDAMAGE: '',
+
+            ATTACKS: [],
+            ATTACKLIST: [
+                { ID: "woodenSword", TYPE: "MELEE" },
+                { ID: 'smallHPpotion', TYPE: "QUICKBAG" },
+                { ID: 'icespike', TYPE: "MAGIC" }
+            ],
+        },
+        {
+
+            ID: 'dark',
+            NAME: 'Dark Mage',
+            CLASS: 'mage',
+            LVL: 4,
+            HP: 500,
+            MP: 200,
+
+            MAXHP: 500,
+            MAXMP: 200,
+            XPGAIN: 500,
+            ATK: 4,
+            DEF: 4,
+
+            TAKINGDAMAGE: '',
+
+            ATTACKS: [],
+            ATTACKLIST:
+                [
+                    
+                    { ID: 'largeHPpotion', TYPE: "QUICKBAG" },
+                    { ID: 'icespike', TYPE: "MAGIC" },
+                    { ID: 'fireball', TYPE: "MAGIC" },
+                    { ID: 'firetornado', TYPE: "MAGIC" },
+                    { ID: 'thunder', TYPE: "MAGIC" },
+                    { ID: 'acidrain', TYPE: "MAGIC" }
+                ]
+
+        }],
+        warrior: [
+            {
+
+                ID: 'town',
+                NAME: 'Town Guard',
+                CLASS: 'guard',
+                LVL: 2,
+                HP: 200,
+                MP: 100,
+                XPGAIN: 20,
+                MAXHP: 200,
+                MAXMP: 100,
+
+                ATK: 2,
+                DEF: 0,
+
+                TAKINGDAMAGE: '',
+                ATTACKLIST: [
+                    { ID: "woodenSword", TYPE: "MELEE" },
+                    { ID: 'smallHPpotion', TYPE: "QUICKBAG" },
+                    { ID: 'icespike', TYPE: "MAGIC" },
+                    { ID: 'ironSword', TYPE: "MEELLE" }
+                ],
+                ATTACKS: []
+            }
+        ]
+    }
